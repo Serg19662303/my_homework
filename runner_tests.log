@@ -1,0 +1,34 @@
+ERROR \ Неверный тип данных для объекта Runner
+Traceback (most recent call last):
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\test_12_4.py", line 24, in test_run
+    t = Runner(name_runner, 5)
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\rt_with_exceptions.py", line 6, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано int
+INFO \ "test_run" выполнен успешно
+INFO \ "test_run" выполнен успешно
+ERROR \ Неверный тип данных для объекта Runner
+Traceback (most recent call last):
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\test_12_4.py", line 24, in test_run
+    t = Runner(name_runner, 5)
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\rt_with_exceptions.py", line 6, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано int
+INFO \ "test_run" выполнен успешно
+INFO \ "test_walk" выполнен успешно
+ERROR \ Неверная скорость для Runner
+Traceback (most recent call last):
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\test_12_4.py", line 14, in test_walk
+    t = Runner('Jim', speed)
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\rt_with_exceptions.py", line 11, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -3
+INFO \ "test_walk" выполнен успешно
+INFO \ "test_walk" выполнен успешно
+ERROR \ Неверная скорость для Runner
+Traceback (most recent call last):
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\test_12_4.py", line 14, in test_walk
+    t = Runner('Jim', speed)
+  File "C:\Users\Serg\PycharmProjects\pythonProject1\urban\Module12\rt_with_exceptions.py", line 11, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -16
